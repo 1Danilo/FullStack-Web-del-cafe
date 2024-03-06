@@ -1,0 +1,60 @@
+#gal{
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.seccion-galeria{
+    background-image: url(../images/back-carrusel.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+    .carousel-indicators li {
+        background-color: brown;
+    }
+    
+    .carousel-indicators .active {
+        background-color: brown;
+    }
+    .slide{
+        border: 20px solid rgb(47, 12, 12);
+        height: 700px;
+        width: 100%;
+        overflow-y: hidden;
+        margin: 0 auto;
+    }
+    .carousel-item{
+        height:700px;
+        min-height:200px;
+  /*height: 100%;
+  width: auto;*/
+      object-fit: cover;
+
+  }
+
+  .carousel-inner{
+  min-height:200px;
+  height:700px
+  /*width: 300px;*/
+  }
+
+.img{
+    object-fit: cover;
+    width: 100%;
+
+}
+
+@media(max-width:768px){
+    .carousel-item{
+        height: 400px;
+    }
+    .carousel-inner{
+        height:400px;
+    }
+    .slide{
+        height:400px;
+    }
+}
