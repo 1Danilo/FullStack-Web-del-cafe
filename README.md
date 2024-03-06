@@ -1,1 +1,1 @@
-# Proyecto Grupal Modulo Full Stack
+# Proyecto Full Stack
